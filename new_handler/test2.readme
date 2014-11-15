@@ -1,0 +1,4 @@
+wang@panther ~/codeRoot/cplusplus/new_handler$ g++ -g main.cpp
+pwang@panther ~/codeRoot/cplusplus/new_handler$ ./a.out 200
+Attempting to allocate 200 GiB...
+Failed to allocate memory!
