@@ -1,0 +1,5 @@
+dd if=/dev/random bs=1 count=32 | od -tx1 -Ax > random
+
+dd if=/dev/zero bs=1 count=1024 | od -tx1 -Ax > zero
+
+echo -n "X" | dd of=hole bs=1024 seek=2
